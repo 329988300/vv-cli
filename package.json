@@ -1,11 +1,18 @@
 {
-  "name": "vv-cli",
+  "name": "vv-lego-cli",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "vv-cli": "bin/index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
