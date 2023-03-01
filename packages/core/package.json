@@ -25,5 +25,9 @@
   },
   "dependencies": {
     "@vv-cli/utils": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
