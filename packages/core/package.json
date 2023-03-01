@@ -24,6 +24,6 @@
     "url": "https://github.com/329988300/vv-cli/issues"
   },
   "dependencies": {
-    "@vv-cli/utils": "^1.0.0"
+    "@vv-cli/utils": "^1.0.1"
   }
 }
