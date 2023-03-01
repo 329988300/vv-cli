@@ -1,15 +1,6 @@
-39 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-39 error npm ERR! code E404
-39 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@vv-cli%2futils - Not found
-39 error npm ERR! 404
-39 error npm ERR! 404  '@vv-cli/utils@^1.1.0' is not in this registry.
-39 error npm ERR! 404
-39 error npm ERR! 404 Note that you can also install from a
-39 error npm ERR! 404 tarball, folder, http url, or git url.
-39 error
-39 error npm ERR! A complete log of this run can be found in:
-39 error npm ERR!     C:\Users\Administrator\AppData\Local\npm-cache\_logs\2023-03-01T16_21_58_541Z-debug-0.log
-39 error     at makeError (C:\Projects\vv-cli\node_modules\execa\lib\error.js:59:11)
-39 error     at handlePromise (C:\Projects\vv-cli\node_modules\execa\index.js:114:26)
-39 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-39 error     at async Promise.all (index 0)
+45 error Error: Command failed with exit code 128: git tag v1.0.1 -m v1.0.1
+45 error fatal: tag 'v1.0.1' already exists
+45 error     at makeError (C:\Projects\vv-cli\node_modules\execa\lib\error.js:59:11)
+45 error     at handlePromise (C:\Projects\vv-cli\node_modules\execa\index.js:114:26)
+45 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+45 error     at async Promise.all (index 0)
