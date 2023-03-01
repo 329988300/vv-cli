@@ -1,0 +1,29 @@
+{
+  "name": "@vv-cli/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Allen <329988300@qq.com>",
+  "homepage": "https://github.com/329988300/vv-cli#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/329988300/vv-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/329988300/vv-cli/issues"
+  },
+  "dependencies": {
+    "@vv-cli/utils": "^1.0.0"
+  }
+}
