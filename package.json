@@ -2,8 +2,9 @@
   "name": "vv-lego-cli",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "bin": {
-    "vv-cli": "bin/index.js"
+    "vv-cli": "./packages/core/lib/index.js"
   },
   "main": "index.js",
   "scripts": {
@@ -20,5 +21,8 @@
   ],
   "devDependencies": {
     "lerna": "^6.5.1"
+  },
+  "dependencies": {
+    "yargs": "^17.7.1"
   }
 }
